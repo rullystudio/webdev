@@ -1,0 +1,95 @@
+CRITICAL - 2023-07-29 00:13:39 --> syntax error, unexpected ';', expecting ']'
+#0 D:\xampp\htdocs\fatih\timeline\_temp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/jadwal')
+#1 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin/jadwal')
+#2 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\fatih\timeline\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-29 00:17:41 --> Class 'App\Controllers\Admin\JadwalModel' not found
+#0 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(832): App\Controllers\Admin\Jadwal->index()
+#1 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jadwal))
+#2 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\fatih\timeline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-07-29 00:22:21 --> Call to undefined method App\Models\JadwalModel::all_data
+#0 D:\xampp\htdocs\fatih\timeline\_temp\app\Controllers\Admin\Jadwal.php(20): CodeIgniter\Model->__call('all_data', Array)
+#1 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(832): App\Controllers\Admin\Jadwal->index()
+#2 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jadwal))
+#3 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\fatih\timeline\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-29 22:11:13 --> syntax error, unexpected '=', expecting ')'
+#0 D:\xampp\htdocs\fatih\timeline\_temp\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\fatih\timeline\_temp\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 D:\xampp\htdocs\fatih\timeline\_temp\system\Filters\Filters.php(166): spl_autoload_call('App\\Filters\\Aut...')
+#4 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('unauthorized', 'before')
+#5 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\fatih\timeline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-07-29 22:11:21 --> syntax error, unexpected '=', expecting ')'
+#0 D:\xampp\htdocs\fatih\timeline\_temp\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\fatih\timeline\_temp\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 D:\xampp\htdocs\fatih\timeline\_temp\system\Filters\Filters.php(166): spl_autoload_call('App\\Filters\\Aut...')
+#4 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+#5 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\fatih\timeline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-07-29 22:30:04 --> Call to a member function getUserByEmail() on null
+#0 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\fatih\timeline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-07-29 22:30:25 --> Call to a member function getUserByEmail() on null
+#0 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#1 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\fatih\timeline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-07-29 22:35:16 --> syntax error, unexpected '/'
+#0 D:\xampp\htdocs\fatih\timeline\_temp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('auth/login')
+#2 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\fatih\timeline\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-29 22:44:09 --> syntax error, unexpected '}', expecting ';'
+#0 D:\xampp\htdocs\fatih\timeline\_temp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth')
+#1 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('auth')
+#2 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\fatih\timeline\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-29 22:52:45 --> syntax error, unexpected 'if' (T_IF)
+#0 D:\xampp\htdocs\fatih\timeline\_temp\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\fatih\timeline\_temp\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 D:\xampp\htdocs\fatih\timeline\_temp\system\Filters\Filters.php(166): spl_autoload_call('App\\Filters\\Aut...')
+#4 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/dashboard', 'before')
+#5 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\fatih\timeline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-07-29 23:27:19 --> syntax error, unexpected '[', expecting variable (T_VARIABLE) or '{' or '$'
+#0 D:\xampp\htdocs\fatih\timeline\_temp\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\fatih\timeline\_temp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\fatih\timeline\_temp\system\Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#3 D:\xampp\htdocs\fatih\timeline\_temp\app\Controllers\Home.php(17): view('template', Array)
+#4 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\fatih\timeline\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-07-29 23:32:55 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\fatih\timeline\_temp\app\Views\content\home\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 39, Array)
+#1 D:\xampp\htdocs\fatih\timeline\_temp\app\Views\admin.php(22): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\fatih\timeline\_temp\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\fatih\timeline\_temp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\xampp\htdocs\fatih\timeline\_temp\system\Common.php(1089): CodeIgniter\View\View->render('admin', Array, true)
+#5 D:\xampp\htdocs\fatih\timeline\_temp\app\Controllers\Admin\Dashboard.php(20): view('admin', Array)
+#6 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->index()
+#7 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#8 D:\xampp\htdocs\fatih\timeline\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\fatih\timeline\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

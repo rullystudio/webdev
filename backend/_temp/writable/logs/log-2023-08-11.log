@@ -1,0 +1,183 @@
+CRITICAL - 2023-08-11 03:50:27 --> Class 'App\Controllers\YourModel' not found
+#0 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-11 03:50:59 --> Class 'App\Models\User' not found
+#0 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\Home->submit()
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-08-11 03:51:50 --> Unknown column 'username' in 'field list'
+ERROR - 2023-08-11 03:52:27 --> Unknown column 'username' in 'field list'
+ERROR - 2023-08-11 04:07:09 --> Unknown column 'username' in 'field list'
+ERROR - 2023-08-11 04:07:16 --> Unknown column 'username' in 'field list'
+ERROR - 2023-08-11 04:07:27 --> Unknown column 'username' in 'field list'
+ERROR - 2023-08-11 04:07:40 --> Unknown column 'username' in 'field list'
+ERROR - 2023-08-11 04:10:28 --> Unknown column 'username' in 'field list'
+ERROR - 2023-08-11 04:10:34 --> Unknown column 'username' in 'field list'
+ERROR - 2023-08-11 04:12:49 --> Unknown column 'username' in 'field list'
+ERROR - 2023-08-11 04:12:49 --> Unknown column 'username' in 'field list'
+ERROR - 2023-08-11 04:22:16 --> Unknown column 'username' in 'field list'
+ERROR - 2023-08-11 04:22:16 --> Unknown column 'username' in 'field list'
+ERROR - 2023-08-11 04:23:07 --> Column 'username' cannot be null
+CRITICAL - 2023-08-11 06:59:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getNumRow()
+#0 D:\xampp\htdocs\project\webdev\_temp\app\Controllers\Auth.php(33): App\Models\UserModel->login(NULL, NULL)
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-11 06:59:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getNumRow()
+#0 D:\xampp\htdocs\project\webdev\_temp\app\Controllers\Auth.php(33): App\Models\UserModel->login(NULL, NULL)
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-08-11 12:13:04 --> Unknown column 'nama_pegawai' in 'field list'
+CRITICAL - 2023-08-11 12:13:42 --> There is no data to insert.
+#0 D:\xampp\htdocs\project\webdev\_temp\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\xampp\htdocs\project\webdev\_temp\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 D:\xampp\htdocs\project\webdev\_temp\app\Controllers\PegawaiController.php(21): CodeIgniter\Model->insert(Array)
+#3 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\PegawaiController->create()
+#4 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+#5 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-08-11 12:14:17 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 12:31:23 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 12:48:45 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 13:08:02 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 13:08:02 --> Column 'nama' cannot be null
+CRITICAL - 2023-08-11 13:09:09 --> syntax error, unexpected 'return' (T_RETURN)
+#0 D:\xampp\htdocs\project\webdev\_temp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('pegawai/store')
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('pegawai/store')
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-08-11 13:09:36 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 13:09:36 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 13:09:46 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 13:09:46 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 13:10:14 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 13:10:29 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 13:11:26 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 13:12:54 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 13:13:31 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 13:13:41 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 13:19:25 --> Column 'nama' cannot be null
+CRITICAL - 2023-08-11 14:19:23 --> Call to undefined method App\Models\PegawaiModel::getRow
+#0 D:\xampp\htdocs\project\webdev\_temp\app\Models\PegawaiModel.php(23): CodeIgniter\Model->__call('getRow', Array)
+#1 D:\xampp\htdocs\project\webdev\_temp\app\Controllers\Pegawai.php(49): App\Models\PegawaiModel->detail('5')
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\Pegawai->show('5')
+#3 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#4 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-11 14:20:25 --> Call to undefined method App\Models\PegawaiModel::getRow
+#0 D:\xampp\htdocs\project\webdev\_temp\app\Models\PegawaiModel.php(23): CodeIgniter\Model->__call('getRow', Array)
+#1 D:\xampp\htdocs\project\webdev\_temp\app\Controllers\Pegawai.php(49): App\Models\PegawaiModel->detail('5')
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\Pegawai->show('5')
+#3 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#4 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-08-11 14:25:46 --> Column 'nama' cannot be null
+CRITICAL - 2023-08-11 14:48:51 --> Call to a member function update() on null
+#0 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\Pegawai->update('5')
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-11 14:49:32 --> Call to a member function update() on null
+#0 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\Pegawai->update('5')
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-08-11 14:54:26 --> Column 'nama' cannot be null
+CRITICAL - 2023-08-11 15:13:18 --> Too few arguments to function App\Controllers\Pegawai::show(), 0 passed in D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\Pegawai->show()
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-11 15:13:19 --> Too few arguments to function App\Controllers\Pegawai::show(), 0 passed in D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\Pegawai->show()
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-11 15:13:19 --> Too few arguments to function App\Controllers\Pegawai::show(), 0 passed in D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\Pegawai->show()
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-11 15:14:07 --> Too few arguments to function App\Controllers\Pegawai::show(), 0 passed in D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\Pegawai->show()
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-11 15:14:14 --> Too few arguments to function App\Controllers\Pegawai::show(), 0 passed in D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\Pegawai->show()
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-11 15:14:14 --> Too few arguments to function App\Controllers\Pegawai::show(), 0 passed in D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\Pegawai->show()
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-11 15:14:37 --> Too few arguments to function App\Controllers\Pegawai::show(), 0 passed in D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\Pegawai->show()
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-08-11 15:59:06 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 15:59:12 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 16:03:25 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 16:16:08 --> Column 'nama' cannot be null
+CRITICAL - 2023-08-11 16:47:06 --> syntax error, unexpected ''foto'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\xampp\htdocs\project\webdev\_temp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('pegawai/store')
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('pegawai/store')
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-11 16:47:40 --> syntax error, unexpected ''foto'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\xampp\htdocs\project\webdev\_temp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('pegawai/store')
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('pegawai/store')
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-11 16:47:49 --> syntax error, unexpected ''foto'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\xampp\htdocs\project\webdev\_temp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('pegawai/store')
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('pegawai/store')
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-11 16:48:10 --> Call to a member function isValid() on null
+#0 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(832): App\Controllers\Pegawai->store()
+#1 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 D:\xampp\htdocs\project\webdev\_temp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\project\webdev\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-08-11 16:48:31 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 16:49:38 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 16:51:37 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 16:53:07 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 16:54:14 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 16:56:52 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 17:06:08 --> Column 'nama' cannot be null
+ERROR - 2023-08-11 17:08:54 --> Column 'nama' cannot be null
